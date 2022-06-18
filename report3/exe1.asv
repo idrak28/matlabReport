@@ -1,0 +1,13 @@
+clc 
+clear all
+close all
+n=7;
+x=(0:5);
+y=[2.1 7.7 13.6 27.2 40.9 61.1];
+sumx=sum(x)
+sumxsq=sum(x^2)
+sumxcu=sum(x^3)
+sumxf=sum(x^4)
+sumy=sum(y)
+sumxy=sum(xy)
+sumxsq
