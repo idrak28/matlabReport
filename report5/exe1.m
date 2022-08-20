@@ -1,0 +1,13 @@
+f=@(x)(x^5+x+1);
+xLow=-1;
+xUp=0;
+e=0.0001;
+while(abs(xUp-xLow)>e)
+    xMid=(xUp+xLow)/2;
+    if(f(xLow)*f(xMid))>0
+        xLow=xMid;
+    else 
+        xUp=xMid;
+    end
+end
+xMid
